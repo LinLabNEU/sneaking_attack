@@ -12,8 +12,10 @@ from setup_inception import ImageNet, InceptionModel
 
 from l2_attack import CarliniL2
 
+# L0 sneaking attack
 from l2_sidechannel_attack_v4 import LADMML2re
-
+# L2 sneaking attack
+from l2_sidechannel_attack_v5 import LADMML2re
 
 from PIL import Image
 
